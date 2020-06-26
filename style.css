@@ -1,0 +1,289 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    background-color: white;
+    border: 1px;
+    margin: 0;
+}
+
+h2, h3, p {
+    margin: 0;
+}
+
+/*ENTETE*/
+#header {
+    display: flex;
+}
+
+/*CONTENU*/
+#menu {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+/*BLOC DE GAUCHE*/
+#menu_left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: initial;
+    background-color: #FECA04;
+    width: 350px;
+
+}
+
+#header_left {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    height: 150px;
+}
+
+img {
+    border-radius: 140px;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    padding: 0;
+    border: 1px solid gray;
+}
+
+#menu_left h3 {
+    background-color: black;
+    color: #FECA04;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 0px;
+}
+
+#address {
+    padding: 10% 15% 15% 15%;
+}
+
+.info {
+    padding: 10% 15% 20% 15%;
+}
+
+.logo1 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+#loisirs {
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.dot {
+    color: #FECA04;
+    margin-right: 20px;
+}
+
+.dot1 {
+    color: #FECA04;
+    margin-right: 20px;
+}
+
+/*BLOC DE DROITE*/
+#menu_right {
+    background-color: white;
+    padding-right: 0px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+#header_right, underline {
+    background-color: white;
+    padding-top: 30px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+h1 span {
+    color: #FECA04;
+}
+
+.h2 {
+    margin-bottom: 2px;
+}
+
+#titre {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+#underline {
+    color: #FECA04;
+    border-top: solid 2px;
+    width: 70px;
+}
+
+#menu_right h3 {
+    border-bottom: solid #FECA04;
+    padding-bottom: 0px;
+    width: 90%;
+    margin-left: 10px;
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+#menu_right i {
+    color: #FECA04;
+    margin-right: 10px;
+}
+
+#icone {
+    margin-right: 20px;
+}
+
+.ajustement {
+    display: flex;
+    padding: 10px;
+}
+
+.date {
+    margin-right: 5px;
+    width: 40%;
+    font-weight: bold;
+}
+
+.where {
+    margin-top: 3px;
+    width: 300px;
+}
+
+.where h4 {
+    margin-top: 0px;
+}
+
+/*BLOC RECOMMANDATION*/
+#bloc_recommandation {
+    display: flex;
+}
+
+.bloc_Pierre {
+    display: table-cell;
+    padding-left: 50px;
+}
+
+.bloc_Franck {
+    display: table-cell;
+    padding-left: 90px;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+#icones_loisirs {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+/*POUR TABLETTE ET MOBILE*/
+@media all and (max-width: 680px) {
+    header {
+        flex-direction: column;
+    }
+
+    #header_right {
+        width: 684px;
+        padding: 1%;
+        margin: 0px;
+    }
+
+    #menu {
+        flex-direction: column-reverse;
+    }
+
+    #menu_left {
+        /*background-color: white;*/
+        width: 772px;
+    }
+
+    #menu_right {
+        width: 100%;
+        padding: 25px;
+    }
+
+    #address {
+        padding: 2%;
+        text-align: center;
+    }
+
+    #info {
+        padding: 2%;
+    }
+
+    .ajustement {
+        justify-content: center;
+        padding: 0px;
+        margin-top: 10px;
+    }
+
+    .where {
+        padding: 0% 5% 0% 5%;
+    }
+
+    #bloc_recommandation {
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+@media all and (max-width: 681px) {
+    #header {
+        width: 570px;
+    }
+
+    #header_right {
+        padding: 0px;
+        width: 570px;
+    }
+
+    #menu_left {
+        width: 570px;
+    }
+
+    #menu_right {
+        margin-left: 0px;
+        width: 520px;
+    }
+
+    #menu_right h3 {
+        font-size: 1.15em;
+    }
+
+    .année {
+        width: 60%;
+    }
+
+    .ajustement {
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+
+    .where {
+        padding: 3% 0% 0% 0%;
+        margin-bottom: 10px;
+    }
+
+    #bloc_recommandation {
+        flex-direction: column;
+        margin-left: 2px;
+    }
+
+}
+
+
+
+
+
+
+   
